@@ -1,0 +1,23 @@
+@startuml
+
+
+
+:Usuário: as U
+
+
+
+U --> (Adicionar amigo)
+U ---> (Desazer amizade com amigo)
+U ----> (Adicionar informações pessoais)
+U -----> (Acessar sistema com login e senha)
+U ------> (Trocar mensagens privadas com um amigo)
+U -------> (Publicar textos com no máximo 140 caracteres)
+U --------> (Permitir que o texto publicado seja privado ou público)
+U ---------> (Visualizar todas as mensagens trocadas com outro usuário)
+U ----------> (Pesquisar amigos a partir do nome inserido no campo de pesquisa)
+U -----------> (Publicar texto informando se é sobre viagens, restaurantes ou outros pontos da cidade)
+
+
+
+
+@enduml
